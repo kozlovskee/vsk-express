@@ -1,0 +1,36 @@
+.about {
+  display: grid;
+  justify-items: center;
+  margin: 100px auto;
+  row-gap: 0;
+
+  &__title {
+    grid-column: 12 span;
+    margin-bottom: 30px;
+  }
+
+  &__content {
+    display: flex;
+    grid-column: 3/ span 8;
+    grid-row: auto;
+    margin-bottom: 30px;
+  }
+
+  &__img {
+    display: block;
+    align-self: center;
+    margin-right: 15px;
+    width: 35px;
+    height: 35px;
+  }
+
+  &__text {
+    margin: 0;
+    font-family: "Golos";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+  }
+}
