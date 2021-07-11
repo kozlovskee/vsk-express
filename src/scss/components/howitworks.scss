@@ -1,0 +1,83 @@
+.how-it-works {
+  margin-bottom: 100px;
+
+  &__title {
+    margin-bottom: 23px;
+    text-align: center;
+  }
+
+  &__subtitle {
+    margin: 0;
+    font-family: "Golos";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000;
+  }
+
+  &__steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 33.33333%;
+
+  &__wrapper {
+    max-width: 270px;
+  }
+
+  &__number {
+    margin: 20px 0 0;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 144px;
+    line-height: 176px;
+    color: rgba(143, 174, 230, 0.6);
+  }
+
+  &__title {
+    margin-bottom: 27px;
+    border-left: 3px solid #8faee6;
+    padding: 2px 0 6px 13px;
+    color: #8faee6;
+  }
+
+  &__text {
+    margin: 0;
+    font-family: "Golos";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    color: #000;
+  }
+
+  &--second {
+    order: 3;
+  }
+
+  &--third {
+    align-items: center;
+    order: 1;
+  }
+
+  &--fourth {
+    align-items: flex-end;
+    order: 4;
+  }
+
+  &--fifth {
+    align-items: flex-end;
+    order: 2;
+  }
+}
